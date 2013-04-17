@@ -1,3 +1,5 @@
+## Video embed
+
 ### Simple example
 
 ```php
@@ -28,9 +30,13 @@ Generates:
 
 ```html
 
-<iframe src="http://player.vimeo.com/video/1084537" width="420" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/1084537" width="420" height="315" frameborder="0" allowFullScreen></iframe>
 
 ```
+
+## Options
+
+
 
 
 

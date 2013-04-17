@@ -63,7 +63,7 @@
 		
 		// Generate Vimeo embed code
 		protected function vimeo_embed() {
-			return '<iframe src="http' . ($this->secure ? "s" : "") . '://player.vimeo.com/video/' . $this->video_id . '" width="' . $this->width . '" height="' . $this->height . '" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+			return '<iframe src="http' . ($this->secure ? "s" : "") . '://player.vimeo.com/video/' . $this->video_id . '" width="' . $this->width . '" height="' . $this->height . '" frameborder="0" allowFullScreen></iframe>';
 		}
 	}
 ?>
