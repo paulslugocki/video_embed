@@ -21,7 +21,7 @@ Generates:
 
 Options can be passed to the constructor and/or the video_embed method, generating embeds for multiple videos in a page this flexibility allows options to be overridden on a per video basis.
 
-### Passing to the video_embed method
+### Passing options to the video_embed method
 
 ```php
 include("video_embed.php");
@@ -44,7 +44,7 @@ Generates:
 <iframe src="http://player.vimeo.com/video/1084537" width="504" height="378" frameborder="0" allowFullScreen></iframe>
 ```
 
-### Overriding options on a specific video
+### Overriding options for a specific video
 
 ```php
 include("video_embed.php");
