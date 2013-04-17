@@ -15,7 +15,7 @@ Generates:
 <iframe width="420" height="315" src="http://www.youtube.com/embed/YE7VzlLtp-4?rel=0" frameborder="0" allowfullscreen></iframe>
 ```
 
-### Options!
+## Options!
 
 ```php
 include("video_embed.php");
