@@ -14,7 +14,7 @@ echo $vid->get_embed("YE7VzlLtp-4");
 Generates:
 
 ```html
-<iframe width="420" height="315" src="http://www.youtube.com/embed/YE7VzlLtp-4?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe src="http://www.youtube.com/embed/YE7VzlLtp-4?rel=0" width="420" height="315" frameborder="0" allowfullscreen></iframe>
 ```
 
 ## Options
@@ -41,7 +41,7 @@ echo $vid->get_embed("1084537", $video_service, $options);
 Generates:
 
 ```html
-<iframe src="http://player.vimeo.com/video/1084537" width="504" height="378" frameborder="0" allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/1084537" width="504" height="378" frameborder="0" allowFullScreen></iframe>
 ```
 
 ### Overriding options for a specific video
@@ -72,7 +72,7 @@ echo $vid->get_embed("1084537", $video_service, $options);
 Generates:
 
 ```html
-<iframe width="420" height="315" src="https://www.youtube.com/embed/YE7VzlLtp-4?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/YE7VzlLtp-4?rel=0" width="420" height="315" frameborder="0" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/1084537?autoplay=1" width="504" height="378" frameborder="0" allowFullScreen></iframe>
 ```
 

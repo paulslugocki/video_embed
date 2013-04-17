@@ -58,7 +58,7 @@
 		
 		// Generate YouTube embed code
 		protected function youtube_embed() {
-			return '<iframe width="' . $this->width . '" height="' . $this->height . '" src="http' . ($this->secure ? "s" : "") . '://www.youtube.com/embed/' . $this->video_id . '?rel=0'  . ($this->autoplay ? "&autoplay=1" : "") . '" frameborder="0" allowfullscreen></iframe>';
+			return '<iframe src="http' . ($this->secure ? "s" : "") . '://www.youtube.com/embed/' . $this->video_id . '?rel=0'  . ($this->autoplay ? "&autoplay=1" : "") . '" width="' . $this->width . '" height="' . $this->height . '" frameborder="0" allowfullscreen></iframe>';
 		}
 		
 		// Generate Vimeo embed code
